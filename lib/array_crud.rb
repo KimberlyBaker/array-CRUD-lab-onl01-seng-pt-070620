@@ -33,10 +33,10 @@ end
 
 def retrieve_first_element_from_array(array)
   pets = ["wow", "i", "am", "really", "learning", "arrays!"]
-  [0]
+  pets[0]
 end
 
 def retrieve_last_element_from_array(array)
   pets = ["wow", "i", "am", "really", "learning", "arrays!"]
-  [-1]
+  pets[-1]
 end
