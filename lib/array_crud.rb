@@ -24,8 +24,6 @@ end
 def remove_element_from_start_of_array(array)
   pets = ["Dog", "Cat", "Fish", "Bird"]
   "Dog" = pets.shift
-  puts pets.inspect
-  puts "Dog"
 end
 
 def retrieve_element_from_index(array, index_number)
