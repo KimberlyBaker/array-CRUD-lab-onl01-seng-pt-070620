@@ -20,9 +20,9 @@ end
 
 def remove_element_from_end_of_array(array)
   pets = ["Dog", "Cat", "Fish", "Bird"]
-  "Fish" = pets.pop
+  "Bird" = pets.pop
   puts pets.inspect
-  puts "Fish"
+  puts "Bird"
 end
 
 def remove_element_from_start_of_array(array)
