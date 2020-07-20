@@ -32,10 +32,11 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
+  pets = ["wow", "Dog", "Cat", "Fish", "Bird", "arrays!"]
   [0]
 end
 
 def retrieve_last_element_from_array(array)
-  pets = ["Dog", "Cat", "Fish", "Bird"]
+  pets = ["wow", "Dog", "Cat", "Fish", "Bird", "arrays!"]
   [-1]
 end
