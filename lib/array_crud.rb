@@ -14,7 +14,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   pets = ["Dog", "Cat", "Fish"]
-  pets.unshift("Bird")
+  pets.unshift("Lizard")
   puts pets.inspect
 end
 
