@@ -13,20 +13,20 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  pets = ["Dog", "Cat", "Fish"]
+  pets = ["Dog", "Cat", "Fish", "Bird"]
   pets.unshift("Lizard")
   puts pets.inspect
 end
 
 def remove_element_from_end_of_array(array)
-  pets = ["Dog", "Cat", "Fish"]
+  pets = ["Dog", "Cat", "Fish", "Bird"]
   "Fish" = pets.pop
   puts pets.inspect
   puts "Fish"
 end
 
 def remove_element_from_start_of_array(array)
-  pets = ["Dog", "Cat", "Fish"]
+  pets = ["Dog", "Cat", "Fish", "Bird"]
   "Dog" = pets.shift
   puts pets.inspect
   puts "Dog"
